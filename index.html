@@ -12,12 +12,12 @@
     <header>
       <nav class="header__nav">
         <div class="header__logo">
-          <h4>Sushi Crafted Eats</h4>
+          <h4 data-aos="fade-down">Sushi Crafted Eats</h4>
           <div class="header__logo-overlay"></div>
         </div>
 
         <!-- For desktop devices -->
-        <ul class="header__menu">
+        <ul class="header__menu" data-aos="fade-down">
           <li>
             <a href="#menu">Menu</a>
           </li>
@@ -40,7 +40,7 @@
         </ul>
 
         <!-- For mobile devices -->
-        <ul class="header__menu-mobile">
+        <ul class="header__menu-mobile" data-aos="fade-down">
           <li>
             <img src="assets/menu.svg" alt="menu" />
           </li>
@@ -51,9 +51,9 @@
     <!-- Hero Section -->
     <section class="hero">
       <div class="hero-image">
-        <img src="assets/sushi-1.png" alt="sushi" />
+        <img src="assets/sushi-1.png" alt="sushi" data-aos="fade-up" />
 
-        <h2>
+        <h2 data-aos="fade-up">
           日 <br />
           本 <br />
           食
@@ -62,7 +62,7 @@
       </div>
 
       <div class="hero-content">
-        <div class="hero-content-info">
+        <div class="hero-content-info" data-aos="fade-left">
           <h1>Feel the taste of Japanese food</h1>
           <p>
             Feel the taste of the most popular japanese food from anywhere and
@@ -79,7 +79,7 @@
         </div>
 
         <div class="hero-content__testimonial">
-          <div class="hero-content__customer flex-center">
+          <div class="hero-content__customer flex-center" data-aos="fade-up">
             <h4>24<span>k+</span></h4>
             <p>Happy Customers</p>
           </div>
@@ -98,7 +98,7 @@
     <section class="about-us" id="about-us">
       <div class="about-us__image">
         <div class="about-us__image-sushi3">
-          <img src="assets/sushi-3.png" alt="sushi" />
+          <img src="assets/sushi-3.png" alt="sushi" data-aos="fade-right" />
         </div>
 
         <button class="about-us__button">
@@ -107,11 +107,11 @@
         </button>
 
         <div class="about-us__image-sushi2">
-          <img src="assets/sushi-2.png" alt="sushi" />
+          <img src="assets/sushi-2.png" alt="sushi" data-aos="fade-right" />
         </div>
       </div>
 
-      <div class="abiut-us__content">
+      <div class="abiut-us__content" data-aos="fade-left">
         <p class="sushi__subtitle">About Us / 私たちに関しては</p>
 
         <h3 class="sushi__title">
@@ -127,8 +127,13 @@
 
     <!-- Popular Foods Section -->
     <section class="popular-foods" id="menu">
-      <h2 class="popular-foods__title">Popular Food / 人気</h2>
-      <div class="popular-foods__filters sushi__hide-scrollbar">
+      <h2 class="popular-foods__title" data-aos="flip-up">
+        Popular Food / 人気
+      </h2>
+      <div
+        class="popular-foods__filters sushi__hide-scrollbar"
+        data-aos="fade-up"
+      >
         <button class="popular-foods__filter-btn active">All</button>
 
         <button class="popular-foods__filter-btn">
@@ -154,7 +159,7 @@
         <button class="popular-foods__filter-btn">Others</button>
       </div>
 
-      <div class="popular-foods__catalogue">
+      <div class="popular-foods__catalogue" data-aos="fade-up">
         <article class="popular-foods__card">
           <img
             class="popular-foods__card-image"
@@ -174,8 +179,11 @@
         </article>
 
         <article class="popular-foods__card active-card">
-          <img class="popular-foods__card-image" src="assets/sushi-11.png"
-          alt="originale sushi/>
+          <img
+            class="popular-foods__card-image"
+            src="assets/sushi-11.png"
+            alt="originale sushi"
+          />
           <h4 class="popular-foods__card-title">Originale Sushi</h4>
 
           <div class="popular-foods__card-details flex-between">
@@ -189,8 +197,11 @@
         </article>
 
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="assets/sushi-10.png"
-          alt="ramen legendo/>
+          <img
+            class="popular-foods__card-image"
+            src="assets/sushi-10.png"
+            alt="ramen legendo"
+          />
           <h4 class="popular-foods__card-title">Ramen Legendo</h4>
 
           <div class="popular-foods__card-details flex-between">
@@ -208,6 +219,9 @@
         <img src="assets/arrow-right.svg" alt="explore foods" />
       </button>
     </section>
+
+    <!-- Trending Section -->
+
     <script src="js/script.js" type="module"></script>
   </body>
 </html>
