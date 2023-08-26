@@ -17,6 +17,7 @@
   width: 120%;
   height: 100%;
   object-fit: contain;
+  z-index: 2;
 }
 
 .hero-image__overlay {
@@ -35,10 +36,11 @@
 
   font-family: var(--playfair-display);
   font-weight: 700;
-  font-size: 120px;
+  font-size: 100px;
 
   line-height: 138px;
   color: #fff;
+  z-index: 2;
 }
 
 .hero-content {
@@ -51,7 +53,9 @@
   font-size: 80px;
   font-weight: 600px;
   font-family: var(--playfair-display);
+
   color: var(--secondary-color);
+  margin-left: 50px;
 }
 
 .hero-content-info p {
@@ -61,6 +65,7 @@
 
   font-size: 18px;
   font-weight: 400;
+  margin-left: 70px;
 }
 
 .hero-content__buttons {
